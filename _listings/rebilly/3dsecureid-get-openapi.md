@@ -3,8 +3,8 @@ swagger: "2.0"
 x-collection-name: Rebilly
 x-complete: 0
 info:
-  title: Rebilly Retrieve a list of ThreeDSecure entries
-  description: Retrieve a list of ThreeDSecure entries
+  title: Rebilly Retrieve a ThreeDSecure entry
+  description: Retrieve a ThreeDSecure entry with specified identifier string
   termsOfService: https://www.rebilly.com/terms/
   contact:
     name: Rebilly API Support
@@ -38,6 +38,36 @@ paths:
       - Of
       - ThreeDSecure
       - Entries
+    post:
+      summary: Create a ThreeDSecure entry
+      description: Create a ThreeDSecure entry
+      operationId: 3dsecure.post
+      x-api-path-slug: 3dsecure-post
+      parameters:
+      - in: body
+        name: body
+        description: ThreeDSecure resource
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        200:
+          description: OK
+      tags:
+      - ThreeDSecure
+      - Entry
+  /3dsecure/{id}:
+    get:
+      summary: Retrieve a ThreeDSecure entry
+      description: Retrieve a ThreeDSecure entry with specified identifier string
+      operationId: 3dsecure.id.get
+      x-api-path-slug: 3dsecureid-get
+      responses:
+        200:
+          description: OK
+      tags:
+      - Retrieve
+      - ThreeDSecure
+      - Entry
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

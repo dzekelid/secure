@@ -6,8 +6,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: Secure
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/secure/master/_listings/rebilly/apis.md
 specificationVersion: "0.14"
 apis:
@@ -23,6 +23,26 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/secure/master/_listings/rebilly/3dsecure-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/secure/master/_listings/rebilly/3dsecure-get-openapi.md
+- name: Rebilly - Create a ThreeDSecure entry
+  x-api-slug: 3dsecure-post
+  description: Create a ThreeDSecure entry
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rebilly.png
+  humanURL: https://www.rebilly.com
+  baseURL: https://api.rebilly.com//v2.1
+  tags: Billing, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/secure/master/_listings/rebilly/3dsecure-post-openapi.md
+- name: Rebilly - Retrieve a ThreeDSecure entry
+  x-api-slug: 3dsecureid-get
+  description: Retrieve a ThreeDSecure entry with specified identifier string
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rebilly.png
+  humanURL: https://www.rebilly.com
+  baseURL: https://api.rebilly.com//v2.1
+  tags: Billing, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/secure/master/_listings/rebilly/3dsecureid-get-openapi.md
 x-common:
 - type: x-website
   url: https://www.rebilly.com

@@ -9,11 +9,35 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe
 x-kinRank: "10"
 x-alexaRank: "1914"
 tags: Secure
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/secure/master/_listings/stripe/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Stripe - Add 3d Secure
+  x-api-slug: 3d-secure-post
+  description: Post 3d, Secure
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
+  humanURL: https://stripe.com/
+  baseURL: https://api.stripe.com/v1/
+  tags: Billing, Finance, Payments, Payments, Stripe Stack, Imports, Change Log Example,
+    Stack Network, Stack, SaaS, Invoices, Payments, Relative Data, Service API, Relative
+    StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/secure/master/_listings/stripe/3d-secure-post-openapi.md
+- name: Stripe - Get 3d Secure Three D Secure
+  x-api-slug: 3d-securethree-d-secure-get
+  description: Get 3d, Secure, Three, D, Secure
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
+  humanURL: https://stripe.com/
+  baseURL: https://api.stripe.com/v1/
+  tags: Billing, Finance, Payments, Payments, Stripe Stack, Imports, Change Log Example,
+    Stack Network, Stack, SaaS, Invoices, Payments, Relative Data, Service API, Relative
+    StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/secure/master/_listings/stripe/3d-securethree-d-secure-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://stride.api.gallery.streamdata.io
